@@ -1,0 +1,543 @@
+@import './base.css';
+.w-full {
+  width: 100%;
+}
+
+.promo-group img {
+  width: 180px;
+}
+
+.titles img {
+  width: 221px;
+}
+
+.toggler {
+  display: flex;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.toggler img {
+  width: 22px;
+}
+
+.first-nav {
+
+}
+
+.responsive-nav {
+  display: none!important;
+  padding: 0.3rem 0;
+}
+
+.responsive-nav > div {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.full-header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* background-image: url(/src/assets/ziklag2.jpg); */
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.overlayd {
+  background-color: #ffffff3b;
+}
+
+.titles {
+  font-size: 24px;
+}
+
+.full-header nav {
+  background-color: #002060;
+  color: #fff;
+  width: 100%;
+  border-top: 5px solid #00a5e1;
+  display: flex;
+}
+
+.full-header nav a {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-left: 1px solid #fff;
+  padding: 0.1rem 0;
+}
+
+.full-header nav a:last-child {
+  border-right: none;
+}
+
+.full-header nav a:first-child {
+  border-left: none;
+}
+
+.videobg {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.videobg video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+.titles {
+  color: #002060;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem ;
+  align-items: center;
+}
+
+.titles > span:first-child {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+main {
+  background: #fff;
+}
+
+
+
+.new-block {
+  color: #005db5;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-block > div {
+  text-align: center;
+  width: 100%;
+}
+
+.titler {
+  font-size: 36px;
+}
+
+.subtitler {
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./nenas.ttf);
+}
+
+@font-face {
+  font-family: script;
+  src: url(./script.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(./roboto.ttf);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: #14141473; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 86px;
+  color: #fff;
+}
+.overlay h1{
+  font-family: myFirstFont;
+  text-shadow: 7px 4px 0px #1b1b1b;
+}
+
+.xcvx span {
+  text-shadow: 7px 4px 0px #1b1b1b;
+}
+
+body {
+  font-family: myFirstFont;
+}
+.xcvx {
+  line-height: 1.22;
+  position: relative;
+  top: -72px;
+  border-top: 3px solid #fff;
+  padding: 0 13rem;
+  font-family: script;
+}
+
+.xcccx {
+  
+}
+
+.language-switcher {
+  /* color: #fff;
+  text-shadow: 3px 2px black; */
+  position: relative;
+  z-index: 1;
+  top: 57px;
+  display: flex;
+}
+
+.language-switcher {
+  
+}
+
+.language-switcher span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.language-switcher span:last-child {
+  margin-right: 0;
+}
+
+.language-switcher img {
+  width: 22px!important;
+  /* margin-left: 10px; */
+}
+
+.xt {
+  font-size: 51px;
+  font-weight: bold;
+  font-size: 86px;
+}
+
+.flexer {
+  margin: 2rem 0;
+}
+
+.last-check {
+  background-color: rgb(0, 93, 181);
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexcol > div:first-child {
+
+}
+
+.last-check {
+  background-color: rgb(0, 93, 181);
+  padding: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.full-header nav a {
+  letter-spacing: 2px;
+}
+
+.flexer {
+  display: flex;
+  text-align: center;
+}
+
+.flexer > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 4rem;
+  align-items: center;
+}
+
+
+
+.white-bar {
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #414141;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.infopage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2rem;
+  color: #fff;
+  background-color: #002060;
+}
+
+.infopage span {
+  font-family: roboto;
+  text-transform: capitalize;
+}
+
+.infopage h1 {
+  /* margin-bottom: 2rem; */
+  /* border-bottom: 1px solid white; */
+  padding: 0rem 5rem;
+  font-size: 52px;
+}
+
+.infopage span {
+  text-align: justify;
+  letter-spacing: 4px;
+}
+
+.promo-block {
+  width: 100%;
+  height: 320px;
+  background-image: url(/src/assets/ziklag4.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.mg {
+  background-image: url(/src/assets/mainframe.jpg);
+}
+
+.mg2 {
+  background-image: url(/src/assets/oil.jpg);
+}
+
+.mg5 {
+  background-image: url(/src/assets/zkl.jpg);
+}
+
+.mg7 {
+  background-image: url(/src/assets/callcenter.jpg);
+  height: 400px;
+  background-position: top center;
+}
+
+.k-block {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.k-block h2 {
+  font-size: 52px;
+}
+
+.k-block p {
+  font-size: 25px;
+}
+
+.k-block .left, .k-block .right{
+  width: 50%;
+}
+
+.k-block .right {
+  padding: 0rem 2rem;
+}
+
+.k-block .left img{
+  width: 100%;
+}
+
+.k-block {
+  color: #0b2a68;
+}
+
+@media screen and (max-width: 1205px) {
+  .overlay {
+    font-size: 59px;
+  }
+  .xcvx {
+    top: -45px;
+  }
+  .xt {
+    font-size: 51px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .titles img {
+    width: 153px;
+  }
+
+  .overlay {
+    font-size: 49px;
+  }
+
+  .xcvx {
+    top: -38px;
+    padding: 0 8rem;
+  }
+  .xt {
+    font-size: 51px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .flexer {
+    flex-direction: column;
+  }
+
+  .flexer > div {
+    width: 100%;
+  }
+
+  .first-nav {
+    display: none!important;
+  }
+  
+  .responsive-nav {
+    display: flex!important;
+  }
+
+  .responsive-nav ul {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 744px) {
+  .overlay {
+    font-size: 36px;
+  }
+  .xcvx {
+    top: -28px;
+  }
+  .titles img {
+    width: 147px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .overlay {
+    font-size: 27px;
+  }
+  .xcvx {
+    top: -21px;
+  }
+  .titles img {
+    width: 153px;
+}
+}
+
+@media screen and (max-width: 524px) {
+  .overlay {
+    font-size: 27px;
+  }
+  .xcvx {
+    top: -21px;
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .overlay {
+    font-size: 27px;
+  }
+  .xcvx {
+    top: -21px;
+    padding: 0 5rem;
+  }
+  .videobg {
+    height: 273px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .titles img {
+    width: 102px;
+  }
+  .toggler img {
+    width: 22px;
+  }
+  .titles img {
+    width: 110px!important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .overlay {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .titles img {
+    width: 79px!important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .xcvx {
+    padding: 0 1rem;
+    top: -13px;
+  }
+  
+  .overlay {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .overlay {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .overlay {
+    font-size: 12px;
+  }
+  .xcvx {
+    top: -10px;
+  }
+}
+
+
+
+/* 
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+ */
+
+
